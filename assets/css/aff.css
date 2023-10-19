@@ -1,0 +1,79 @@
+*, body {
+    font-family: "Montserrat", sans-serif;
+}
+html {
+
+    font-size: 16px
+
+}
+.wrap-user{
+
+    display: block;
+    border-radius: 15px;
+}
+
+.title-user{
+    background-color: #3D5C16;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid;
+
+    color:#fff;
+    padding: 15px;
+}
+
+
+input {
+    border-radius: 0 !important;
+    outline: 0 !important;
+    border-width: 0 0 2px!important;
+
+}
+input:focus {
+    border-color: #3D5C16; !important;
+    outline: 1px dotted #000 !important;
+}
+.input-group{
+    padding: 10px 0;
+}
+.button-user{
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 15px;
+}
+.button-user > .btn{
+    justify-content: center;
+    background-color: #3D5C16;
+    border-color: #3D5C16;
+}
+
+.gioi-tinh{
+    margin-left:10px ;
+    gap: 50px;
+    color:#6c757d;
+}
+
+.gioi-tinh span {
+    font-size: 1.1em;
+    font-style: normal;
+    color:#6c757d;
+
+}
+
+::placeholder {
+    color:#6c757d;
+}
+
+.wrap-info .info{
+}
+.wrap-info .info .title{
+    margin-top: 20px;
+    font-size: .75rem;
+}.wrap-info .info .sub-title{
+    font-size: 1rem;
+}
+
+.wrap-info .info img{
+    padding: 20px 0;
+}
